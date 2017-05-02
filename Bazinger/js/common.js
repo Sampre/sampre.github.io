@@ -16,18 +16,11 @@ $(document).ready(function(){
 	});
 
 	$('.image-popup').magnificPopup({type:'image'});
-	$('.popup-youtube').magnificPopup({
-		type: 'iframe',
-		iframe: {
-			patterns: {
-				youtube: {
-					index: 'youtube.com/',
-					id: 'v=',
-					src: '//www.youtube.com/watch?v=l6pDOwNeTrg'
-				}
-			}
-		}
+	$('.popup-youtube').magnificPopup({ 
+		type: 'iframe' 
 	});
+
+
 
 //scroll
 var $menu = $('#menu');
