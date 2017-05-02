@@ -1,0 +1,129 @@
+
+@media only screen and (max-width : 992px) {
+	.toggle-menu {
+		display: block;
+		float: right;
+		color: #fff;
+		padding: 5px 0;
+		margin-top: 28px;
+		cursor: pointer;
+		font-size: 26px;
+		text-align: center;
+	}
+	.nav {
+		text-align: center;
+		display: none;
+		float: none;
+		background-color: rgba(0,0,0,.8);
+		position: absolute;
+		top: 76px;
+		right: 0;
+	}
+	.nav li {
+		display: block;
+		margin-left: 0;
+	}
+	.nav li a {
+		display: block;
+		width: 100%;
+		padding: 14px 60px;
+	}
+	.nav li a:hover {
+		border-top: 2px solid transparent;
+		background-color: rgba(0,0,0,.9);
+		transition: .5s;
+	}
+	.btn {
+		margin: 20px 20px 20px 0;
+	}
+	.socio-block {
+		margin-top: 35px;
+	}
+	.features-item {
+		margin-bottom: 25px;
+	}
+	.gallery-item {
+		margin-bottom: 25px;
+	}
+	.package-block {
+		margin: 30px 0;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	h1 {
+		font-size: 32px;
+	}
+	.slide-content {
+		width: 100%;
+		margin-right: 0;
+		padding-left: 65px;
+		text-align: center;
+		float: none;
+	}
+
+	.btn:hover {
+		padding: 20px 47px;
+	}
+	.socio-block {
+		width: 300px;
+	}
+	.download .btn:hover {
+		padding: 19px 46px;
+	}
+	.hexagon {
+		margin: 0 auto 30px auto;
+		top: 0;
+	}
+	.copy {
+		margin-bottom: 10px;
+	}
+	.copy,
+	.terms {
+		text-align: center;
+		float: none;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	h1 {
+		margin-top: 100px;
+		font-size: 32px;
+	}
+	.btn {
+		padding: 13px 40px;
+	}
+	.btn:hover {
+		padding: 15px 40px;
+	}
+	.socio-block {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.socio-block p {
+		float: none;
+	}
+
+	.video {
+		padding: 50px 0;
+	}
+	.contact {
+		padding: 10px 5px;
+	}
+}
+@media only screen and (max-width : 480px) {
+	h1 {
+		font-size: 24px;
+	}
+	.slide-content {
+		padding: 0 58px;
+	}
+	.main-head .btn {
+		width: 100%;
+		margin-right: 0;
+	}
+
+}
+
