@@ -71,6 +71,7 @@ body {
   left: 0;
   -webkit-transition: all 1s;
   transition: all 1s;
+  overflow-x: hidden;
 }
 p {
   font-weight: 300;
