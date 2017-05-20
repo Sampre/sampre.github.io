@@ -1,0 +1,396 @@
+@media only screen and (max-width : 1366px) {
+	.blog-post {
+		padding: 2.5% 2.2%;
+	}
+	.blog-post .blog-text {
+		font-size: 14px;
+	}
+	.blog-post h6 {
+		margin-top: 3%;
+	}
+	.blog-post h6:after {
+		margin-bottom: 5%;
+	}
+}
+
+@media only screen and (max-width : 1200px) {
+	.blog-item {
+		width: 100%;
+	}
+	.blog-item:nth-child(2) .blog-img {
+		order: 2;
+	}
+	.blog-item:nth-child(3) .blog-post {
+		order: 2;
+	}
+
+}
+
+@media only screen and (max-width : 992px) {
+	.nav li {
+		margin-left: 15px;
+	}
+	.slide-content {
+		padding-top: 20%;
+	}
+	.owl-prev {
+		left: 20px;
+	}
+	.owl-next {
+		right: 20px;
+	}
+	.flex-elem .about-item {
+		width: 40%;
+		margin-bottom: 35px;
+	}
+	.history .history-item {
+		width: 80%;
+		padding: 0;
+	}
+	.history-item {
+		margin: 0 auto;
+	}
+	.history-item:nth-child(1) {
+		text-align: center;
+		margin-bottom: 35px;
+	}
+	.case-elem {
+		width: 75%;
+	}
+	.dots-elem {
+		width: 75%;
+	}
+	.services {
+		background: #202020 url(../img/img.jpg) no-repeat 50% 50%;
+		background-size: cover;
+		text-align: left;
+	}
+	.services h3 {
+		text-align: left;
+		padding-left: 30px;
+		margin-left: 100px;
+		margin-right: 0;
+	}
+	.services h3:before {
+		left: 0;
+	}
+	.services .container {
+		padding: 0;
+	}
+	.service-wrap {
+		padding: 90px 15px 90px 15px;
+		width: 100%;
+		background-color: rgba(0,0,0,.5);
+	}
+	.service-item .round-elem-style {
+		left: 10px;
+	}
+	.service-item {
+		padding-left: 100px;
+		padding-right: 90px;
+	}
+
+	.team {
+		height: auto;
+	}
+	.team-item {
+		position: static;
+		float: none;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		width: 320px;
+		margin: 0 auto;
+		height: 100px;
+	}
+	.team-item .teammate-photo {
+		margin: 0;
+		position: relative;
+		display: inline-block;
+	}
+	.team-info {
+		text-align: right;
+	}
+	.team-item .teammate-photo .hover-effect {
+		width: 0;
+		height: 0;
+	}
+	.team-item .teammate-photo:hover .hover-effect {
+		width: 0;
+		height: 0;
+	}
+
+}
+
+@media only screen and (max-width : 800px) {
+	.toggle-menu {
+		display: block;
+	}
+	.nav {
+		width: 240px;
+		float: none;
+		background-color: rgba(0,0,0,.7);
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		right: -240px;
+		transition: all .7s;
+	}
+	.nav li {
+		display: block;
+		margin: 0;
+	}
+	.nav li:first-child {
+		margin-top: 75px;
+	}
+	.nav li a {
+		padding: 19px 22px;
+	}
+	.nav li a:hover {
+		background-color: rgba(255,255,255,.1);
+		border-bottom: 2px solid transparent;
+		transition: all .6s;
+	}
+	.numeric-elem {
+		width: 25%;
+		margin: 0 auto 30px auto;
+	}
+	.numeric-elem:last-child {
+		margin-bottom: 0;
+	}
+	.price-elem {
+		width: 51%;
+		margin: 0 auto 20px auto;
+	}
+
+}
+
+@media only screen and (max-width : 768px) {
+	h1 {
+		font-size: 48px;
+	}
+	.main-head h1:after {
+		margin: 18px auto;
+	}
+	.btn-header {
+		width: 180px;
+	}
+	.btn-header:nth-of-type(1) {
+		margin-right: 30px;
+	}
+	.history .history-item {
+		width: 100%;
+	}
+	.video-block .video-item {
+		top: 6%;
+		left: 4.1%;
+	}
+	.filter {
+		width: 220px;
+		display: block;
+		margin: 0 auto;
+		padding: 9px 0;
+		border-bottom: 1px solid #ccc;
+	}
+	.filter:last-of-type {
+		border-bottom: none;
+	}
+	.filter:after {
+		content: none;
+	}
+	.work-item {
+		width: 33.33333%;
+		padding-bottom: 33.33333%;
+	}
+	.head-text {
+		margin-bottom: 50px;
+	}
+	.slide {
+		background-size: cover;
+	}
+	.case .container {
+		padding: 0;
+	}
+	.case-elem {
+		width: 90%;
+		margin: 0 auto;
+		background-color: rgba(255,255,255,.9);
+	}
+	.dots-elem {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.prices,
+	.numeric-data {
+		padding: 90px 0;
+	}
+	.numeric-elem {
+		width: 33.33333%;
+	}
+	.price-elem {
+		width: 56%;
+	}
+	.contact-elem,
+	.form-elem {
+		width: 100%;
+	}
+	.contact-elem h6 {
+		margin: 0;
+	}
+	.form-elem {
+		padding-top: 0;
+	}
+	.service-item {
+		padding-right: 0;
+	}
+}
+
+@media only screen and (max-width : 600px) {
+	.btn-header:nth-of-type(n) {
+		margin: 30px 0 0 0;
+	}
+	.btn-top {
+		right: 35px;
+		bottom: 40px;
+	}
+	.flex-elem .about-item {
+		width: 50%;
+	}
+
+	.work-item {
+		width: 50%;
+		padding-bottom: 50%;
+	}
+	.case-elem {
+		padding: 67px 30px 70px 30px;
+	}
+	.price-elem {
+		width: 76%;
+	}
+	.clients-item {
+		margin: 0 auto 20px auto;
+	}
+	.clients-item:last-child {
+		margin-bottom: 0;
+	}
+	.blog-item {
+		flex-direction: column;
+	}
+	.blog-img {
+		width: 100%;
+		padding-bottom: 70%;
+	}
+	.blog-post {
+		width: 100%;
+	}
+	.blog-item:nth-child(2) .blog-img {
+		order: 0;
+	}
+	.blog-item:nth-child(3) .blog-post {
+		order: 1;
+	}
+	.blog-item:nth-child(4) .blog-post {
+		order: 1;
+	}
+	.social-btns {
+		margin: 0 auto;
+		text-align: center;
+	}
+	.social-btns li {
+		float:none;
+		display: inline-block;
+	}
+	.copy {
+		float: none;
+		display: block;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.services h3 {
+		margin-left: 10px;
+	}
+}
+
+@media only screen and (max-width : 480px) {
+	section,
+	.about,
+	.prices
+	.contacts {
+		padding: 80px 0;
+	}
+	h3 {
+		font-size: 34px;
+	}
+	.slide-content {
+		padding: 105px 50px 20px 50px;
+	}
+	.main-head h1 {
+		margin-top: 20px;
+	}
+	.owl-prev, 
+	.owl-next {
+		width: 36px;
+		height: 36px;
+		padding-top: 0;
+	}
+	.owl-prev {
+		left: 10px;
+	}
+	.owl-next {
+		right: 10px;
+	}
+	.flex-elem .about-item {
+		width: 100%;
+		margin: 0 auto 35px auto;
+	}
+	.flex-elem .about-item:last-child {
+		margin-bottom: 0;
+	}
+	.work-item {
+		width: 100%;
+		padding-bottom: 100%;
+	}
+	.btn-top {
+		right: 15px;
+		bottom: 20px;
+	}
+	.case-elem {
+		padding: 40px 10px 70px 10px;
+	}
+	.numeric-elem {
+		width: 50%;
+	}
+	.form-elem {
+		padding-top: 8.4%;
+	}
+	.main-footer {
+		padding: 55px 0;
+	}
+}
+@media only screen and (max-width : 400px) {
+	h1 {
+		font-size: 40px;
+	}
+	.flex-elem .about-item {
+		padding: 0;
+	}
+	.numeric-elem {
+		width: 100%;
+	}
+	.price-elem {
+		width: 96%;
+	}
+	.team-item {
+		width: 100%;
+	}
+	.team-item .teammate-photo:hover .hover-effect {
+		width: 30px;
+	}
+	.blog-img {
+		padding-bottom: 100%;
+	}
+}
